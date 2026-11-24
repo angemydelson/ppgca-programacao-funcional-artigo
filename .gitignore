@@ -1,0 +1,31 @@
+# Build artifacts
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+*.ez
+erl_crash.dump
+
+# Generated escripts / tarballs
+/fp_bench-*.tar
+/tmp/
+
+# Elixir language server / editors
+/.elixir_ls/
+/.lexical/
+/.vscode/
+/.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Benchmark noise (keep CSV + environment.txt of the article run)
+/results/html/
+/results/run-*/
+/results/tables/
+/results/*_raw.csv
+/results/energy.csv

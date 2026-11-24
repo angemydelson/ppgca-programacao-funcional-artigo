@@ -1,0 +1,10 @@
+==> FpBench
+    Elixir 1.17.3 / OTP 27 / x86_64-pc-linux-gnu
+    os: {:unix, :linux}
+    jit: :jit
+    schedulers: 12
+    sizes: [1000, 10000, 100000]
+    operations: ["pipeline", "pipeline_selective"]
+    time: 5.0s  warmup: 2.0s  memory_time: 1.0s  quick: false
+    html: false  out: /home/angemy/fp_bench_results
+    started_at: 2026-11-20T19:02:00Z
